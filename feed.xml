@@ -10,5 +10,221 @@
     <itunes:image href="https://rabmeireliyahu.github.io/tawil/portada.jpg"/>
     <itunes:category text="Religion &amp; Spirituality"/>
     <itunes:explicit>false</itunes:explicit>
-  </channel>
+      <item>
+      <title>Shiur De Introduccion</title>
+      <description>Shiur De Introduccion</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/Shiur_De_Introduccion.mp3" length="2550992" type="audio/mpeg"/>
+      <guid isPermaLink="false">Shiur_De_Introduccion.mp3</guid>
+      <pubDate>Fri, 11 Sep 2026 07:46:09 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#1 Preparativos para Shabat</title>
+      <description>#1 Preparativos para Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%231_Preparativos_para_Shabat.mp3" length="2379755" type="audio/mpeg"/>
+      <guid isPermaLink="false">#1_Preparativos_para_Shabat.mp3</guid>
+      <pubDate>Fri, 11 Sep 2026 10:00:02 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#2 Preparativos para Shabat.</title>
+      <description>#2 Preparativos para Shabat.</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%232_Preparativos_para_Shabat..mp3" length="2689183" type="audio/mpeg"/>
+      <guid isPermaLink="false">#2_Preparativos_para_Shabat..mp3</guid>
+      <pubDate>Fri, 11 Sep 2026 10:03:23 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#3 Preparativos para Shabat</title>
+      <description>#3 Preparativos para Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%233_Preparativos_para_Shabat.mp3" length="2114998" type="audio/mpeg"/>
+      <guid isPermaLink="false">#3_Preparativos_para_Shabat.mp3</guid>
+      <pubDate>Tue, 15 Sep 2026 18:25:23 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#4 Hornear Jala Erev Shabat</title>
+      <description>#4 Hornear Jala Erev Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%234_Hornear_Jala_Erev_Shabat.mp3" length="2597932" type="audio/mpeg"/>
+      <guid isPermaLink="false">#4_Hornear_Jala_Erev_Shabat.mp3</guid>
+      <pubDate>Tue, 15 Sep 2026 21:52:37 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#5 Acciones Prohibidas en Erev Shabat</title>
+      <description>#5 Acciones Prohibidas en Erev Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%235_Acciones_Prohibidas_en_Erev_Shabat.mp3" length="3340325" type="audio/mpeg"/>
+      <guid isPermaLink="false">#5_Acciones_Prohibidas_en_Erev_Shabat.mp3</guid>
+      <pubDate>Wed, 16 Sep 2026 13:20:03 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#6 Entrar a Shabat con hambre y descansado</title>
+      <description>#6 Entrar a Shabat con hambre y descansado</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%236_Entrar_a_Shabat_con_hambre_y_descansado.mp3" length="2313652" type="audio/mpeg"/>
+      <guid isPermaLink="false">#6_Entrar_a_Shabat_con_hambre_y_descansado.mp3</guid>
+      <pubDate>Wed, 16 Sep 2026 13:22:37 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#7. Ayunos Operaciones Erev Shabat</title>
+      <description>#7. Ayunos Operaciones Erev Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%237._Ayunos_Operaciones_Erev_Shabat.mp3" length="2450353" type="audio/mpeg"/>
+      <guid isPermaLink="false">#7._Ayunos_Operaciones_Erev_Shabat.mp3</guid>
+      <pubDate>Fri, 18 Sep 2026 14:36:44 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#8 Viajar en Erev Shabat</title>
+      <description>#8 Viajar en Erev Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%238_Viajar_en_Erev_Shabat.mp3" length="2371482" type="audio/mpeg"/>
+      <guid isPermaLink="false">#8_Viajar_en_Erev_Shabat.mp3</guid>
+      <pubDate>Sun, 20 Sep 2026 15:00:28 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#9 Perasha con Targum (1)</title>
+      <description>#9 Perasha con Targum (1)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%239_Perasha_con_Targum_%281%29.mp3" length="2722229" type="audio/mpeg"/>
+      <guid isPermaLink="false">#9_Perasha_con_Targum_(1).mp3</guid>
+      <pubDate>Wed, 23 Sep 2026 06:48:11 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#10 Perasha con Targum (2)</title>
+      <description>#10 Perasha con Targum (2)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2310_Perasha_con_Targum_%282%29.mp3" length="2039143" type="audio/mpeg"/>
+      <guid isPermaLink="false">#10_Perasha_con_Targum_(2).mp3</guid>
+      <pubDate>Thu, 24 Sep 2026 06:52:58 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#11 Perasha con Targum (3)</title>
+      <description>#11 Perasha con Targum (3)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2311_Perasha_con_Targum_%283%29.mp3" length="2599797" type="audio/mpeg"/>
+      <guid isPermaLink="false">#11_Perasha_con_Targum_(3).mp3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:07:48 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#12 Perasha con Targum(4)</title>
+      <description>#12 Perasha con Targum(4)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2312_Perasha_con_Targum%284%29.mp3" length="2320040" type="audio/mpeg"/>
+      <guid isPermaLink="false">#12_Perasha_con_Targum(4).mp3</guid>
+      <pubDate>Sun, 27 Sep 2026 23:14:42 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#13 Cuando Comienza Shabat</title>
+      <description>#13 Cuando Comienza Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2313_Cuando_Comienza_Shabat.mp3" length="3202897" type="audio/mpeg"/>
+      <guid isPermaLink="false">#13_Cuando_Comienza_Shabat.mp3</guid>
+      <pubDate>Tue, 29 Sep 2026 13:32:24 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#14 Aumentar de Jol a Shabat</title>
+      <description>#14 Aumentar de Jol a Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2314_Aumentar_de_Jol_a_Shabat.mp3" length="2175848" type="audio/mpeg"/>
+      <guid isPermaLink="false">#14_Aumentar_de_Jol_a_Shabat.mp3</guid>
+      <pubDate>Tue, 29 Sep 2026 13:37:38 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#15 Resumen Horario maximo de aumentar a Shabat</title>
+      <description>#15 Resumen Horario maximo de aumentar a Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2315_Resumen_Horario_maximo_de_aumentar_a_Shabat.mp3" length="2550992" type="audio/mpeg"/>
+      <guid isPermaLink="false">#15_Resumen_Horario_maximo_de_aumentar_a_Shabat.mp3</guid>
+      <pubDate>Tue, 29 Sep 2026 13:38:03 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#16 Horarios Erev shabat</title>
+      <description>#16 Horarios Erev shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2316_Horarios_Erev_shabat.mp3" length="2890461" type="audio/mpeg"/>
+      <guid isPermaLink="false">#16_Horarios_Erev_shabat.mp3</guid>
+      <pubDate>Sun, 04 Oct 2026 21:39:49 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#17 Horarios Erev Shabat (2)</title>
+      <description>#17 Horarios Erev Shabat (2)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2317_Horarios_Erev_Shabat_%282%29.mp3" length="2350828" type="audio/mpeg"/>
+      <guid isPermaLink="false">#17_Horarios_Erev_Shabat_(2).mp3</guid>
+      <pubDate>Tue, 06 Oct 2026 05:46:37 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#18 Ordenar al goy cuando ya recibio Shabat</title>
+      <description>#18 Ordenar al goy cuando ya recibio Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2318_Ordenar_al_goy_cuando_ya_recibio_Shabat.mp3" length="2581409" type="audio/mpeg"/>
+      <guid isPermaLink="false">#18_Ordenar_al_goy_cuando_ya_recibio_Shabat.mp3</guid>
+      <pubDate>Wed, 07 Oct 2026 05:40:23 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#19 Viaje Erev Shabat</title>
+      <description>#19 Viaje Erev Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2319_Viaje_Erev_Shabat.mp3" length="2793953" type="audio/mpeg"/>
+      <guid isPermaLink="false">#19_Viaje_Erev_Shabat.mp3</guid>
+      <pubDate>Thu, 08 Oct 2026 06:58:13 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#20 Minian Temprano Erev Shabat</title>
+      <description>#20 Minian Temprano Erev Shabat</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2320_Minian_Temprano_Erev_Shabat.mp3" length="2490146" type="audio/mpeg"/>
+      <guid isPermaLink="false">#20_Minian_Temprano_Erev_Shabat.mp3</guid>
+      <pubDate>Thu, 08 Oct 2026 22:23:46 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#21 Encendido de velas (1)</title>
+      <description>#21 Encendido de velas (1)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2321_Encendido_de_velas_%281%29.mp3" length="2585169" type="audio/mpeg"/>
+      <guid isPermaLink="false">#21_Encendido_de_velas_(1).mp3</guid>
+      <pubDate>Thu, 08 Oct 2026 22:25:22 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#22 Encendido de velas (2)</title>
+      <description>#22 Encendido de velas (2)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2322_Encendido_de_velas_%282%29.mp3" length="2367363" type="audio/mpeg"/>
+      <guid isPermaLink="false">#22_Encendido_de_velas_(2).mp3</guid>
+      <pubDate>Fri, 09 Oct 2026 12:44:21 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#23 Encendido de velas (3)</title>
+      <description>#23 Encendido de velas (3)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2323_Encendido_de_velas_%283%29.mp3" length="2649378" type="audio/mpeg"/>
+      <guid isPermaLink="false">#23_Encendido_de_velas_(3).mp3</guid>
+      <pubDate>Fri, 09 Oct 2026 12:44:50 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#24 Encendido de velas (4)</title>
+      <description>#24 Encendido de velas (4)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2324_Encendido_de_velas_%284%29.mp3" length="2547988" type="audio/mpeg"/>
+      <guid isPermaLink="false">#24_Encendido_de_velas_(4).mp3</guid>
+      <pubDate>Fri, 09 Oct 2026 12:45:13 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#25 Encendido de velas (5)</title>
+      <description>#25 Encendido de velas (5)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2325_Encendido_de_velas_%285%29.mp3" length="2270467" type="audio/mpeg"/>
+      <guid isPermaLink="false">#25_Encendido_de_velas_(5).mp3</guid>
+      <pubDate>Fri, 09 Oct 2026 12:47:49 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#26 Encendido de velas (6)</title>
+      <description>#26 Encendido de velas (6)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2326_Encendido_de_velas_%286%29.mp3" length="2741132" type="audio/mpeg"/>
+      <guid isPermaLink="false">#26_Encendido_de_velas_(6).mp3</guid>
+      <pubDate>Fri, 09 Oct 2026 12:48:14 -0000</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+</channel>
 </rss>
