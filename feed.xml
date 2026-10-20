@@ -281,5 +281,23 @@
       <itunes:duration>00:02:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
+    <item>
+      <title>#33- Encendido de Velas (13)</title>
+      <description>#33- Encendido de Velas (13)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2333-%20Encendido%20de%20Velas%20%2813%29.mp3" length="2546830" type="audio/mpeg"/>
+      <guid isPermaLink="false">#33- Encendido de Velas (13).mp3</guid>
+      <pubDate>Tue, 20 Oct 2026 05:39:47 -0000</pubDate>
+      <itunes:duration>00:02:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#34- Encendido de Velas (14)</title>
+      <description>#34- Encendido de Velas (14)</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2334-%20Encendido%20de%20Velas%20%2814%29.mp3" length="2166734" type="audio/mpeg"/>
+      <guid isPermaLink="false">#34- Encendido de Velas (14).mp3</guid>
+      <pubDate>Tue, 20 Oct 2026 05:39:48 -0000</pubDate>
+      <itunes:duration>00:02:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
 </channel>
 </rss>
