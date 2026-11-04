@@ -12,6 +12,33 @@
     <itunes:category text="Religion &amp; Spirituality"><itunes:category text="Judaism"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>#50- Pararse en el Kidush y el Kidush del día</title>
+      <description>#50- Pararse en el Kidush y el Kidush del día</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2347-%20Encendido%20de%20Velas%20%2827%29.mp3" length="2190926" type="audio/mpeg"/>
+      <guid isPermaLink="false">#47- Encendido de Velas (27).mp3</guid>
+      <pubDate>Wed, 04 Nov 2026 15:46:24 GMT</pubDate>
+      <itunes:duration>00:02:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#49- Escuchar el Kidush de otro</title>
+      <description>#49- Escuchar el Kidush de otro</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2348-%20Encendido%20de%20Velas%20%2828%29.mp3" length="2435150" type="audio/mpeg"/>
+      <guid isPermaLink="false">#48- Encendido de Velas (28).mp3</guid>
+      <pubDate>Wed, 04 Nov 2026 14:46:24 GMT</pubDate>
+      <itunes:duration>00:02:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#48- Si no escuchó el Vaijulú</title>
+      <description>#48- Si no escuchó el Vaijulú</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2345-%20Encendido%20de%20Velas%20%2825%29.mp3" length="2132174" type="audio/mpeg"/>
+      <guid isPermaLink="false">#45- Encendido de Velas (25).mp3</guid>
+      <pubDate>Wed, 04 Nov 2026 13:46:24 GMT</pubDate>
+      <itunes:duration>00:02:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>#47- Iom HaShishí antes de Vaijulú</title>
       <description>#47- Iom HaShishí antes de Vaijulú</description>
       <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2350-%20Encendido%20de%20Velas%20%2830%29.mp3" length="2431473" type="audio/mpeg"/>
@@ -21,39 +48,12 @@
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>#49- Escuchar el Kidush de otro</title>
-      <description>#49- Escuchar el Kidush de otro</description>
-      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2348-%20Encendido%20de%20Velas%20%2828%29.mp3" length="2435150" type="audio/mpeg"/>
-      <guid isPermaLink="false">#48- Encendido de Velas (28).mp3</guid>
-      <pubDate>Wed, 04 Nov 2026 11:46:24 GMT</pubDate>
-      <itunes:duration>00:02:32</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>#50- Pararse en el Kidush y el Kidush del día</title>
-      <description>#50- Pararse en el Kidush y el Kidush del día</description>
-      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2347-%20Encendido%20de%20Velas%20%2827%29.mp3" length="2190926" type="audio/mpeg"/>
-      <guid isPermaLink="false">#47- Encendido de Velas (27).mp3</guid>
-      <pubDate>Wed, 04 Nov 2026 10:46:24 GMT</pubDate>
-      <itunes:duration>00:02:16</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
       <title>#46- El Kidush de la noche es de la Torá</title>
       <description>#46- El Kidush de la noche es de la Torá</description>
       <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2346-%20Encendido%20de%20Velas%20%2826%29.mp3" length="2312270" type="audio/mpeg"/>
       <guid isPermaLink="false">#46- Encendido de Velas (26).mp3</guid>
       <pubDate>Wed, 04 Nov 2026 09:46:24 GMT</pubDate>
       <itunes:duration>00:02:24</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>#48- Si no escuchó el Vaijulú</title>
-      <description>#48- Si no escuchó el Vaijulú</description>
-      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2345-%20Encendido%20de%20Velas%20%2825%29.mp3" length="2132174" type="audio/mpeg"/>
-      <guid isPermaLink="false">#45- Encendido de Velas (25).mp3</guid>
-      <pubDate>Wed, 04 Nov 2026 08:46:24 -0000</pubDate>
-      <itunes:duration>00:02:13</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
