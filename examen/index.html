@@ -51,7 +51,7 @@
     • No se reciben respuestas después de la hora de cierre.
   </div>
   <div class="card" id="reg"></div>
-  <div class="nota">Deja esta página abierta: el examen aparece solo cuando empiece.</div>
+  <div class="nota">Puedes salir de esta página cuando quieras. A la hora del examen vuelve a entrar a este mismo link y el examen ya estará aquí.</div>
 </div></div>
 
 <div id="fin" class="pane" style="display:none"><div class="wrap"><div class="big">¡Tiempo!</div><div class="dur">El examen cerró a las 9:28 pm (hora de México).<br>Si ya enviaste tus respuestas, quedaron registradas.<br>¡Mucha hatzlajá!</div></div></div>
@@ -83,7 +83,7 @@
     var el = $('reg');
     if (reg) {
       el.innerHTML = '<div class="ok">✓ Ya estás registrado</div><div>' + esc(reg.n) + '<br>' + esc(reg.t) + '<br>' + esc(reg.c) + '</div>' +
-        '<div class="sub">A la hora del examen se abre aquí con tus datos ya puestos: solo aprieta <b>Siguiente</b> y contesta.</div>' +
+        '<div class="sub">Ya puedes salir. A las <b>9:15 pm (hora de México)</b> vuelve a entrar a este mismo link: el examen aparecerá aquí con tus datos ya puestos, solo aprieta <b>Siguiente</b> y contesta.</div>' +
         '<div class="sub"><a href="#" id="cambiar">Cambiar mis datos</a></div>';
       $('cambiar').onclick = function (e) { e.preventDefault(); reg = null; try { localStorage.removeItem(KEY); } catch (x) {} pintarReg(); };
     } else {
