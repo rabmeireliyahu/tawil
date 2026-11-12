@@ -12,29 +12,11 @@
     <itunes:category text="Religion &amp; Spirituality"><itunes:category text="Judaism"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>#53- Con qué vino se hace Kidush</title>
-      <description>#53- Con qué vino se hace Kidush</description>
-      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2356-%20Encendido%20de%20Velas%20%2836%29.mp3" length="2443982" type="audio/mpeg"/>
-      <guid isPermaLink="false">#56- Encendido de Velas (36).mp3</guid>
-      <pubDate>Tue, 10 Nov 2026 18:33:56 GMT</pubDate>
-      <itunes:duration>00:02:32</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>#54- La copa llena, limpia y no tomada</title>
-      <description>#54- La copa llena, limpia y no tomada</description>
-      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2355-%20Encendido%20de%20Velas%20%2835%29.mp3" length="2292686" type="audio/mpeg"/>
-      <guid isPermaLink="false">#55- Encendido de Velas (35).mp3</guid>
-      <pubDate>Tue, 10 Nov 2026 17:33:56 GMT</pubDate>
-      <itunes:duration>00:02:23</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
       <title>#56- No comer antes del Kidush</title>
       <description>#56- No comer antes del Kidush</description>
       <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2354-%20Encendido%20de%20Velas%20%2834%29.mp3" length="2623310" type="audio/mpeg"/>
       <guid isPermaLink="false">#54- Encendido de Velas (34).mp3</guid>
-      <pubDate>Tue, 10 Nov 2026 16:33:56 GMT</pubDate>
+      <pubDate>Tue, 10 Nov 2026 21:33:56 GMT</pubDate>
       <itunes:duration>00:02:43</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -43,8 +25,26 @@
       <description>#55- Cómo se sostiene la copa de Kidush</description>
       <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2353-%20Encendido%20de%20Velas%20%2833%29.mp3" length="2222798" type="audio/mpeg"/>
       <guid isPermaLink="false">#53- Encendido de Velas (33).mp3</guid>
-      <pubDate>Tue, 10 Nov 2026 15:33:56 GMT</pubDate>
+      <pubDate>Tue, 10 Nov 2026 20:33:56 GMT</pubDate>
       <itunes:duration>00:02:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#54- La copa llena, limpia y no tomada</title>
+      <description>#54- La copa llena, limpia y no tomada</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2355-%20Encendido%20de%20Velas%20%2835%29.mp3" length="2292686" type="audio/mpeg"/>
+      <guid isPermaLink="false">#55- Encendido de Velas (35).mp3</guid>
+      <pubDate>Tue, 10 Nov 2026 19:33:56 GMT</pubDate>
+      <itunes:duration>00:02:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#53- Con qué vino se hace Kidush</title>
+      <description>#53- Con qué vino se hace Kidush</description>
+      <enclosure url="https://op3.dev/e/https://archive.org/download/rab-tawil/%2356-%20Encendido%20de%20Velas%20%2836%29.mp3" length="2443982" type="audio/mpeg"/>
+      <guid isPermaLink="false">#56- Encendido de Velas (36).mp3</guid>
+      <pubDate>Tue, 10 Nov 2026 18:33:56 GMT</pubDate>
+      <itunes:duration>00:02:32</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
