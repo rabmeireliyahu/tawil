@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Examen · Rab Yosef Tawil</title>
+<meta property="og:title" content="Examen · Rab Yosef Tawil">
+<meta property="og:description" content="Regístrate desde ahora. El examen abre hoy a las 9:15 pm (México) y dura 13 minutos.">
+<meta property="og:image" content="https://rabmeireliyahu.github.io/tawil/portada.jpg">
+<style>
+  *{box-sizing:border-box} html,body{margin:0;height:100%;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f3f0fa;color:#222}
+  #bar{position:fixed;top:0;left:0;right:0;height:76px;background:#46178f;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 16px;z-index:2;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+  #bar .t{font-size:14px;line-height:1.25;opacity:.9} #reloj{font-size:40px;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:1px}
+  #bar.poco{background:#c0182c}
+  #f{position:fixed;top:76px;left:0;right:0;bottom:0;width:100%;height:calc(100% - 76px);border:0;display:none;background:#fff}
+  .pane{position:fixed;top:76px;left:0;right:0;bottom:0;overflow:auto;-webkit-overflow-scrolling:touch;padding:20px 16px 40px;text-align:center}
+  .wrap{max-width:560px;margin:0 auto}
+  .k{font-size:16px} .big{font-size:44px;font-weight:800;color:#46178f;margin:6px 0;font-variant-numeric:tabular-nums}
+  .dur{font-size:17px;margin-bottom:14px}
+  .card{text-align:left;font-size:15px;background:#fff;border-radius:12px;padding:14px 16px;line-height:1.45;margin-bottom:14px}
+  .h{font-weight:700;font-size:18px;margin-bottom:8px;color:#46178f}
+  label{display:block;font-size:14px;margin:10px 0 0} label input{display:block;width:100%;font-size:17px;padding:10px;margin-top:4px;border:1px solid #bbb;border-radius:8px}
+  label.chk{display:flex;gap:10px;align-items:center;font-size:16px;margin-top:14px} label.chk input{width:22px;height:22px;margin:0;flex:none}
+  button{margin-top:14px;width:100%;font-size:18px;font-weight:700;padding:12px;border:0;border-radius:10px;background:#46178f;color:#fff}
+  button:disabled{opacity:.6} .err{color:#c0182c;font-size:14px;margin-top:8px}
+  .ok{color:#1a7f37;font-weight:800;font-size:20px;margin-bottom:6px} .sub{margin-top:8px;font-size:14px;opacity:.85}
+  .nota{font-size:14px;opacity:.8} a{color:#46178f}
+  table.hz{width:100%;border-collapse:collapse;font-size:14px;margin-top:6px} table.hz td{padding:3px 0}
+</style>
+</head>
+<body>
+<div id="bar"><div class="t">Examen<br>Rab Yosef Tawil</div><div id="reloj">13:00</div></div>
+
+<div id="pre" class="pane"><div class="wrap">
+  <div class="k">El examen abre en</div><div id="cuenta" class="big">--:--</div>
+  <div class="dur"><strong>Duración: 13 minutos</strong></div>
+  <div class="card">
+    <strong>Horarios</strong>
+    <table class="hz">
+      <tr><td>🇲🇽 México</td><td>jueves 9:15 a 9:28 pm</td></tr>
+      <tr><td>🇵🇦 Panamá</td><td>jueves 10:15 a 10:28 pm</td></tr>
+      <tr><td>🇦🇷 Argentina</td><td>viernes 12:15 a 12:28 am</td></tr>
+      <tr><td>🇮🇱 Israel</td><td>viernes 5:15 a 5:28 am</td></tr>
+    </table>
+    <br>El examen será en Google Forms (el link se comparte desde antes, pero se abre a la hora indicada) y se cerrará exactamente 13 minutos después. Las respuestas enviadas después no contarán.<br><br>
+    <strong>Reglas</strong><br>
+    El examen es solo para gente que está en el proyecto y ha escuchado los shiurim en general.<br>
+    • El examen es individual, sin ayuda de nadie.<br>
+    • Un solo dispositivo por persona.<br>
+    • Prohibido utilizar inteligencia artificial.<br>
+    • No se reciben respuestas después de la hora de cierre.
+  </div>
+  <div class="card" id="reg"></div>
+  <div class="nota">Deja esta página abierta: el examen aparece solo cuando empiece.</div>
+</div></div>
+
+<div id="fin" class="pane" style="display:none"><div class="wrap"><div class="big">¡Tiempo!</div><div class="dur">El examen cerró a las 9:28 pm (hora de México).<br>Si ya enviaste tus respuestas, quedaron registradas.<br>¡Mucha hatzlajá!</div></div></div>
+
+<iframe id="f" title="Examen"></iframe>
+
+<script>
+  var INICIO = Date.parse('2026-11-12T21:15:00-06:00');
+  var FIN    = Date.parse('2026-11-12T21:28:00-06:00');
+  var API    = 'https://script.google.com/macros/s/AKfycbwd1SiQu1N4VGOJ1J54-02uX9mw19uG8gy4eKp2EMnAc69VmDBhBSEz3qlzG6VdlRSZGg/exec';
+  var FORM   = 'https://docs.google.com/forms/d/e/1FAIpQLSdK28aD61Vl3Xz77Q84dUOHpWqzd3C84gryl6tWLsIXUmmYBw/viewform?embedded=true';
+  var PRE    = FORM + '&usp=pp_url&entry.373802722=Acepto+estas+reglas';
+  var KEY = 'regTawil1112', reg = null, off = 0, cargado = false;
+  try { reg = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) {}
+
+  // Ajusta el reloj con la hora del servidor (por si el celular está desfasado).
+  try {
+    var t0 = Date.now();
+    fetch(location.href.split('#')[0] + (location.search ? '&' : '?') + 'r=' + t0, { method: 'HEAD', cache: 'no-store' })
+      .then(function (r) { var d = Date.parse(r.headers.get('Date')); if (d) off = d + (Date.now() - t0) / 2 - Date.now(); })
+      .catch(function () {});
+  } catch (e) {}
+
+  function $(id) { return document.getElementById(id); }
+  function val(id) { return $(id).value.trim(); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function pintarReg() {
+    var el = $('reg');
+    if (reg) {
+      el.innerHTML = '<div class="ok">✓ Ya estás registrado</div><div>' + esc(reg.n) + '<br>' + esc(reg.t) + '<br>' + esc(reg.c) + '</div>' +
+        '<div class="sub">A la hora del examen se abre aquí con tus datos ya puestos: solo aprieta <b>Siguiente</b> y contesta.</div>' +
+        '<div class="sub"><a href="#" id="cambiar">Cambiar mis datos</a></div>';
+      $('cambiar').onclick = function (e) { e.preventDefault(); reg = null; try { localStorage.removeItem(KEY); } catch (x) {} pintarReg(); };
+    } else {
+      el.innerHTML = '<div class="h">Regístrate desde ahora</div>' +
+        '<label>Nombre y apellido<input id="rn" autocomplete="name"></label>' +
+        '<label>Teléfono / WhatsApp (10 dígitos)<input id="rt" type="tel" inputmode="tel" autocomplete="tel"></label>' +
+        '<label>Correo electrónico<input id="rc" type="email" autocomplete="email"></label>' +
+        '<label class="chk"><input id="ra" type="checkbox"> Acepto las reglas del examen</label>' +
+        '<div id="rerr" class="err"></div><button id="rb">Registrarme</button>';
+      $('rb').onclick = registrar;
+    }
+  }
+
+  function registrar() {
+    var n = val('rn'), t = val('rt').replace(/[\s-]/g, ''), c = val('rc'), a = $('ra').checked, er = $('rerr');
+    if (n.length < 3) { er.textContent = 'Escribe tu nombre y apellido.'; return; }
+    if (!/^\+?[0-9]{10,15}$/.test(t)) { er.textContent = 'Escribe tu teléfono, solo números (10 dígitos).'; return; }
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(c)) { er.textContent = 'Escribe un correo válido.'; return; }
+    if (!a) { er.textContent = 'Tienes que aceptar las reglas.'; return; }
+    er.textContent = '';
+    var b = $('rb'); b.disabled = true; b.textContent = 'Registrando…';
+    var listo = function () { reg = { n: n, t: t, c: c }; try { localStorage.setItem(KEY, JSON.stringify(reg)); } catch (x) {} pintarReg(); };
+    var falla = function () { b.disabled = false; b.textContent = 'Registrarme'; er.textContent = 'No se pudo registrar. Intenta de nuevo en un momento. Si no se puede, igual podrás poner tus datos dentro del examen.'; };
+    var timer = setTimeout(falla, 30000);
+    fetch(API, { method: 'POST', credentials: 'omit', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                 body: JSON.stringify({ n: n, t: t, c: c, a: a }) })
+      .then(function (r) { return r.json(); })
+      .then(function (j) { clearTimeout(timer); if (j && j.ok) listo(); else falla(); })
+      .catch(function () { clearTimeout(timer); falla(); });
+  }
+
+  function urlExamen() {
+    return reg ? PRE + '&entry.662297110=' + encodeURIComponent(reg.n) + '&entry.1836729181=' + encodeURIComponent(reg.t) + '&entry.162316106=' + encodeURIComponent(reg.c) : FORM;
+  }
+  function dos(n) { return (n < 10 ? '0' : '') + n; }
+  function fmt(ms) { var s = Math.max(0, Math.ceil(ms / 1000)), h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = s % 60; return (h ? h + ':' + dos(m) : m) + ':' + dos(x); }
+
+  function tick() {
+    var now = Date.now() + off, bar = $('bar'), r = $('reloj'), f = $('f');
+    if (now < INICIO) {
+      r.textContent = '13:00'; bar.className = ''; $('cuenta').textContent = fmt(INICIO - now);
+      $('pre').style.display = 'block'; $('fin').style.display = 'none'; f.style.display = 'none';
+    } else if (now < FIN) {
+      r.textContent = fmt(FIN - now); bar.className = (FIN - now <= 60000) ? 'poco' : '';
+      if (!cargado) { f.src = urlExamen(); cargado = true; }
+      $('pre').style.display = 'none'; $('fin').style.display = 'none'; f.style.display = 'block';
+    } else {
+      r.textContent = '0:00'; bar.className = 'poco';
+      if (f.style.display !== 'none') { f.style.display = 'none'; f.src = 'about:blank'; }
+      $('pre').style.display = 'none'; $('fin').style.display = 'block';
+    }
+  }
+  pintarReg(); tick(); setInterval(tick, 250);
+</script>
+</body>
+</html>
